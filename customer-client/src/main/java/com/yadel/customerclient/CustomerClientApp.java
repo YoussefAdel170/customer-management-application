@@ -1,21 +1,20 @@
 package com.yadel.customerclient;
 
-import com.yadel.customerclient.ui.MainFrame;
-import javax.swing.*;
+import com.yadel.customerclient.ui.MainView;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-/**
- * Entry point for the Swing desktop client.
- * @author y.adel
- */
-public class CustomerClientApp {
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            try {
-                UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            new MainFrame().setVisible(true);
-        });
+public class CustomerClientApp extends Application {
+    @Override
+    public void start(Stage primaryStage) {
+        Scene scene = new Scene(new javafx.scene.layout.BorderPane(), 1000, 650); // temporary root
+        MainView mainView = new MainView(scene);
+        scene.setRoot(mainView);
+        scene.getStylesheets().add(getClass().getResource("/com/yadel/customerclient/ui/styles.css").toExternalForm());
+        primaryStage.setTitle("Customer Management - y.adel");
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
+    public static void main(String[] args) { launch(args); }
 }

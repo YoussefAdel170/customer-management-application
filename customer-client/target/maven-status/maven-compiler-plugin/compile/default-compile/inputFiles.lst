@@ -1,5 +1,11 @@
 C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\CustomerClientApp.java
 C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\model\Customer.java
 C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\service\CustomerApiService.java
-C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\CustomerDialog.java
-C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\MainFrame.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\components\ButtonBar.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\components\CustomerTable.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\components\SearchBar.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\components\StatusBar.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\components\ThemeManager.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\dialogs\CustomerDialog.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\dialogs\DeleteConfirmationDialog.java
+C:\Users\hp\Downloads\github\customer-management-application\customer-client\src\main\java\com\yadel\customerclient\ui\MainView.java
