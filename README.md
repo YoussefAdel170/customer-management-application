@@ -148,7 +148,7 @@ mysql --version
 
 ```bash
 git clone https://github.com/YoussefAdel170/customer-management-application.git
-cd customer-management-app
+cd customer-management-application
 ```
 
 ### 2 · Create the database
