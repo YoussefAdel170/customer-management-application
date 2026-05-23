@@ -340,4 +340,7 @@ This project was built for educational purposes as part of a developer test task
 
 ---
 
-> Ran into a problem during setup? See the [Issues & Solutions guide](ISSUES.md) for every error encountered and how it was fixed.
+## 📂 Project Documentation
+
+- **[FILE_REFERENCE.md](FILE_REFERENCE.md)** – Detailed responsibilities of every file in the backend and client projects.
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** – Complete log of all issues encountered during setup and how they were solved.
