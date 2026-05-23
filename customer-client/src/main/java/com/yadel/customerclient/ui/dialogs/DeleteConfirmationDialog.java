@@ -30,7 +30,7 @@ public class DeleteConfirmationDialog {
         root.getStyleClass().add("delete-dialog-root");
 
         // Warning icon – plain ASCII safe (no emoji)
-        Label icon = new Label("[!]");
+        Label icon = new Label("!");
         icon.setFont(Font.font("Segoe UI", FontWeight.BOLD, 48));
         icon.setStyle("-fx-text-fill: #dc2626;");
 
